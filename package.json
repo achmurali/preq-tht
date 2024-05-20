@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "backend:start": "sh ./scripts/run-backend.sh",
+    "backend:stop": "sh ./scripts/stop-backend.sh",
+    "frontend:dev": "cd ./frontend && npm run dev",
+    "frontend:start": "cd ./frontend && npm run build && npm run preview"
+  },
+  "dependencies": {
+  }
+}
