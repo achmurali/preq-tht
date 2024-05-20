@@ -1,0 +1,16 @@
+.rootContainer {
+  height: 100vh;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.firmTypePill {
+  text-transform: capitalize;
+  background-color: var(--mantine-primary-color-2);
+  color: var(--mantine-color-gray-7);
+}
+
+.assetTypeSelect {
+  align-self: flex-end;
+}
